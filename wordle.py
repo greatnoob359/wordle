@@ -1,4 +1,9 @@
-word = "fried"
+word = "quart"
+
+possible_words = ["tried", "livid", "quart", "small", "chick"]
+
+word = random.choice(posssible_words)
+
 
 default = '\033[0m'
 green = '\033[92m'
@@ -27,4 +32,4 @@ def game_loop():
             break
 
 
-    game_loop()
+game_loop()
